@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Lora', serif;
+    /* color: white; */
+  }
+
+  .container{
+    height: 100;
+    width: 100;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    background: rgb(251, 190, 133);
+    background: radial-gradient(circle, rgba(133, 251, 172, 0.633) 0%,
+    rgba(224, 196, 91, 0.8407738095238095) 35%,
+    rgb(230, 146, 113) 100%);
+  }
+
+  .weather {
+    display: flex; 
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.5rem;
+  }
+
+  #location {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .desc {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+  }
+
+  .circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+  }
